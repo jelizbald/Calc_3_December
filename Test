@@ -1,0 +1,14 @@
+import javax.swing.*;
+
+public class Test
+{
+    public static void main(String args[])
+    {
+        JFrame f = new JFrame();
+        Calc c = new Calc();
+        f.setSize (600,600);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.add(c);
+        f.setVisible(true);
+    }
+}
